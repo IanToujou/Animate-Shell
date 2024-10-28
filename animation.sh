@@ -14,7 +14,7 @@ display_frame(){
 		tput cup $(( start_row + i )) $start_col
 		echo -e "${text[$i]}"
 	done
-	sleep 0.05
+	sleep 0.06
 }
 
 poop_animation=$(cat movie_name)
